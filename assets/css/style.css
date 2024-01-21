@@ -377,13 +377,15 @@ h6 {
 
 #hero .hero-text {
   position: absolute;
+  left: 0;
+  top: 40px;
+  right: 0;
+  height: calc(100% - 60px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
-  height: calc(100% - 60px);
-  width: calc(100%)
+  flex-direction: column;  
 }
 
 #hero h2 {
