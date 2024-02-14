@@ -44,7 +44,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
@@ -377,13 +377,21 @@ h6 {
 
 #hero .hero-text {
   position: absolute;
+  left: 0;
+  top: 40px;
+  right: 0;
+  height: calc(100% - 60px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+<<<<<<< HEAD
   flex-direction: column;
   height: calc(100% - 60px);
   width: calc(100%);
+=======
+  flex-direction: column;  
+>>>>>>> gh-pages
 }
 
 #hero h2 {
