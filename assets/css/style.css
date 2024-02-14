@@ -385,13 +385,7 @@ h6 {
   align-items: center;
   justify-content: center;
   text-align: center;
-<<<<<<< HEAD
-  flex-direction: column;
-  height: calc(100% - 60px);
-  width: calc(100%);
-=======
   flex-direction: column;  
->>>>>>> gh-pages
 }
 
 #hero h2 {
